@@ -70,6 +70,6 @@ public class Employee {
     }
     @Override
     public String toString() {
-        return "Ф.И.О. сотрудника: " + this.name + " " + this.surname + " " + this.patronymic + "; Зарплата сотрудника: " + this.salary + "; Отдел №: " + this.departmentNumber + "; Личный номер сотдурника: " + this.id + ";";
+        return "Ф.И.О. сотрудника: " + this.name + " " + this.surname + " " + this.patronymic + "; Зарплата сотрудника: " + this.salary + "; Отдел №: " + this.departmentNumber + "; Личный номер сотдурника: " + this.id + ";" + " ";
     }
 }
